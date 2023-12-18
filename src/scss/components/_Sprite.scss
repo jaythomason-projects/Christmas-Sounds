@@ -1,0 +1,12 @@
+.sprite {
+    width: $sound-size;
+    height: $sound-size;
+
+    button {
+        @include flex-centered();
+        @include soundboard-grid();
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+    }
+}

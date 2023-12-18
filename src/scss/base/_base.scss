@@ -1,0 +1,27 @@
+#root {
+    padding: $gap-large;
+}
+
+body::before {
+    // Workaround for background-attachment not behaving correctly on mobile browsers
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: var(--background-body)
+}
+
+body {
+    font-family: $font-family-playfair;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-greatvibes;
+}
+
+button {
+    padding: $button-padding-vertical $button-padding-horizontal;
+}

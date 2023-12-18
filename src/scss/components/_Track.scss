@@ -1,0 +1,16 @@
+.track {
+    @include soundboard-grid();
+    @include standard-button();
+    height: $sound-size;
+    grid-template-columns: calc(#{$sound-size} - #{$button-padding-horizontal * 2}) minmax(0, 1fr);
+
+    .track-controls {
+        @include flex-centered();
+        flex-direction: column;
+        align-items: flex-start;
+
+        input {
+            width: 100%;
+        }
+    }
+}

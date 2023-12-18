@@ -1,0 +1,30 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: $overlay-colour;
+    backdrop-filter: blur(5px);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 101;
+    width: 75%;
+    max-width: 500px;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+// .modal__content {
+
+// }
+
+// .modal__title {
+
+// }

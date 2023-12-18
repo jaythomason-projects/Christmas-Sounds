@@ -1,0 +1,12 @@
+@mixin flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin standard-button {
+    background-color: var(--button-base);
+    border-radius: 6px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
