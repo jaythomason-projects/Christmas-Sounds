@@ -1,7 +1,6 @@
 :root {
-  /* --background-body:linear-gradient(to bottom, #b32134 0%, #ff6150 200%);  */
   --background-body: #b32134;
-  --background: #ff6150;
+  --background: linear-gradient(to top, #b32134 -50%, #ff6150 150%);
   --background-alt: #c97a7e;
   --selection: #537653;
   --text-main: #fffbf2;
