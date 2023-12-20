@@ -6,7 +6,7 @@ const Modal = ({ name, setShowModal }) => {
     const message = `
     Wishing you a very merry Christmas and a happy new year!
     Take a moment to unwind and embrace the joyful spirit of the holiday season with these soothing Christmas sounds.
-    May they provide a delightful ambiance as you get ready for Christmas day, or unwrap your gifts on Christmas morning.`;
+    May they provide a delightful ambiance as you get ready for Christmas day.`;
 
     return (
         <>
@@ -19,7 +19,7 @@ const Modal = ({ name, setShowModal }) => {
                         className="modal__button"
                         onClick={() => setShowModal(false)}
                     >
-                        Start!
+                        Go
                     </button>
                 </div>
             </dialog>
