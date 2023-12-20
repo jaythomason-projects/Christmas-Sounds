@@ -30,6 +30,16 @@ export const sounds = [
         altText: 'Santa sleigh',
     },
     {
+        name: 'Bon bon',
+        type: 'sprite',
+        file: [
+            '/assets/sounds/Bon bon.mp3', 
+            '/assets/sounds/Bon bon 2.mp3', 
+        ],
+        icon: '/assets/images/cracker.png',
+        altText: 'Bon bon',
+    },
+    {
         name: 'Fireplace',
         type: 'track',
         file: '/assets/sounds/Fireplace.mp3',
