@@ -37,4 +37,9 @@ export const greetings = [
         fullName: 'Alexes',
         message: '',
     },
+    {
+        name: 'Marli',
+        fullName: 'Marli, Reese, and the boys',
+        message: '',
+    },
 ]
