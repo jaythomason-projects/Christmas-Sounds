@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a soundboard application built with React. It allows users to play different sounds and display greetings. The sounds and greetings can be customized to create a unique user experience.
+This project is a soundboard application built with React. It allows users to play different sounds, and display a unique Christmas greeting/message. The sounds and greetings can be customised, so you can make your own soundboard to share. You can use sites like [this one](https://www.qr-code-generator.com/) to create a QR code that links to your soundboard with the recipient's name in the URL, so you could add it to a Christmas card (that's how I'm using it).
 
 ## Instructions for Use
 
@@ -50,11 +50,19 @@ Greetings are defined in the `greetings.js` file in the `src/components/Modal/` 
 }
 ```
 
+### Appending a Name to the URL
+
+To append a name to the URL, simply add `/?name=` followed by the name to the end of the URL address.
+
+For example, if you want to share your soundboard with "John", you would append `/?name=John` to the end of the URL. (eg. `https://www.example.com/?name=John`)
+
+
 ## Credits
 
 This project uses the following assets and technologies:
 
 - React: A JavaScript library for building user interfaces.
 - Vite: A build tool that aims to provide a faster and leaner development experience for modern web projects.
-- Icons from [Flaticon](https://www.flaticon.com/): Free icons used under the [Flaticon Basic License](https://file000.flaticon.com/downloads/license/license.pdf).
+- Howler.js: A JavaScript audio library for the modern web.
+- Icons from [Flaticon](https://www.flaticon.com/): Free icons used under the [Flaticon Basic License](https://support.flaticon.com/s/article/Personal-use-FI?language=en_US).
 - Sounds from [Zapsplat](https://www.zapsplat.com/): Free sounds used under the [Zapsplat Standard License](https://www.zapsplat.com/license/).
