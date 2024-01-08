@@ -1,5 +1,6 @@
 {
-  "name": "sounds-of-christmas",
+  "name": "christmas-sounds",
+  "homepage": "/christmas-sounds/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
